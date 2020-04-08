@@ -1,0 +1,3 @@
+[submodule "research_visualization/research_projects_visualization"]
+	path = research_visualization/research_projects_visualization
+	url = https://github.com/lampinen/research_projects_visualization
