@@ -2,6 +2,10 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="../homepage.css"></link>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="research_projects_visualization/graph_code.js"></script>
+        <script src="research_projects_visualization/research_data.js"></script>
+        <link href="research_projects_visualization/research_visualization.css" rel="stylesheet" type="text/css"></link>
 	<title>Andrew Lampinen</title>
 </head>
 <body>
@@ -26,6 +30,12 @@
         </div>
 
 	<div class="content">
+            This visualization shows projects (<font color="#4d004b">purple</font>) I worked on during my PhD, and the content areas (<font color="#bfd3e6">blue</font>) they relate to. Double-click on a project to open the associated paper or preprint!
+            <div id="svg-container" class="svg-container">
+            </div>
 	</div>
 </body>
+<script type="text/javascript">
+    display_graph(projects);
+</script>
 </html>
