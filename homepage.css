@@ -143,16 +143,30 @@ body {
 
 .role-sub-div {
 	text-align: left;
-	color: #8C96C6;
+	color: #707090;
 	font-size: 1.1em;
         padding: 0.1em 0em 0.1em 2em;
+}
+
+.role-other-div {
+	text-align: left;
+	color: #8C96C6;
+        padding: 1em 0em 0.1em 2em;
+}
+
+.role-icon {
+   width: 1.75em; 
+   height: auto;
 }
 
 .content {
         top: 0;
         position: absolute;
 	margin: 0.25em;
-	margin-left: 17em;
+	margin-left: 14.8em;
+        line-height: 1.6;
+        font-size: 110%;
+	color: #302030;
 }
 
 a {
