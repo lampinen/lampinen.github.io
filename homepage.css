@@ -177,6 +177,9 @@ a {
 	max-width: 40em;
 }
 
+.content > ul {
+	max-width: 37em;
+}
 
 .image-text-container {
     position: relative;
